@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #a09e9c;
+}
+
+.container-navbar .highlighted,
+.container-banner .highlighted,
+.container-popular .highlighted,
+.menu-bars {
+    color: #e99c2e;
+}
+
+.container-arrivals .heading-arrivals,
+.container-featured .heading-featured,
+.container-blogs .heading-blog {
+    font-family: 'Roboto', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.custom-card {
+    transition-duration: 0.5s;
+}
+
+.custom-card:hover {
+    -webkit-box-shadow: 0 0 15px grey;
+    box-shadow: 0 0 15px grey;
+}
+
+
+/* Navbar CSS */
+
+#slides,
+.custom-navbar {
+    background-color: #f8f9fd;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#navbar {
+    justify-content: center;
+}
+
+.nav-link {
+    white-space: nowrap;
+}
+
+.logo-secondary {
+    display: none;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-navbar-toggler {
+    margin-bottom: 10px;
+}
+
+.menu-bars {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.nav-icon {
+    margin-left: 10px;
+}
+
+
+/* Slides CSS */
+
+.container-slides {
+    margin-bottom: 10%;
+}
+
+.slider-text {
+    padding-top: 10%;
+}
+
+.container-slides .price {
+    margin-bottom: 7%;
+}
+
+.custom-carousal-indicators .custom-li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #e99c2e;
+    background-color: transparent;
+}
+
+.custom-carousal-indicators .custom-li.active {
+    background-color: #e99c2e;
+}
+
+div.custom-slider {
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+
+.container-slides .btn-cart,
+.container-slides .btn-info {
+    padding: 2% 4%;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 0%;
+}
+
+.container-slides .btn-cart {
+    background-color: #e99c30;
+    color: #ffffff;
+}
+
+.container-slides .btn-info {
+    color: #e99c30;
+}
+
+
+/* Popular products CSS */
+
+.container-popular {
+    padding: 0 10% 0 10%;
+}
+
+.btn-popular {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.card-popular {
+    background-color: #f8f9fc;
+    border: none;
+    height: 100%;
+    align-items: center;
+}
+
+.card-popular .img-sofa {
+    padding-top: 10%;
+    margin-bottom: 7%;
+    width: 50%;
+    height: auto;
+}
+
+.card-popular .img-sofa {
+    padding-top: 10%;
+    /* width: 50%; */
+    width: 85%;
+    height: auto;
+}
+
+.card-popular .img-lamp {
+    width: 50%;
+    height: auto;
+}
+
+#chair-text {
+    text-align: left;
+}
+
+
+/* New Arrivals */
+
+.container-arrivals {
+    padding: 0 10% 0 10%;
+}
+
+.card-arrivals {
+    border: none;
+}
+
+.arrivals-image-container {
+    display: grid;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #f8f9fc;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    height: 200px;
+}
+
+.arrivals-image {
+    max-height: 100%;
+    max-width: 100%;
+    display: -webkit-inline-box;
+}
+
+.btn-sale {
+    margin-left: auto;
+    padding: 0px 15px 0px 15px;
+    color: white;
+    border-radius: 0%;
+    width: fit-content;
+}
+
+.btn-sale-orange {
+    background-color: #D8924C;
+}
+
+.btn-sale-green {
+    background-color: #47D93B;
+}
+
+.btn-sale-hidden {
+    visibility: hidden;
+}
+
+
+/* Banner */
+
+.container-banner .jumbotron.banner {
+    position: relative;
+    background-image: url("../images/collection/sofa-collection-banner.jpg");
+    background-size: 100% 100%;
+}
+
+.container-banner .banner-text {
+    padding: 10% 50% 10% 18%;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.bg-banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(59, 65, 67, 0.94);
+    height: 100%;
+    width: 37%;
+    z-index: 1;
+}
+
+.container-banner .btn-banner {
+    padding: 2% 4% 2% 4%;
+    margin-top: 5%;
+    color: #ffffff;
+    background-color: #E99C2E;
+    border: none;
+    border-radius: 0;
+}
+
+
+/* Featured Products */
+
+.container-featured {
+    padding: 0 10% 0 10%;
+}
+
+.container-featured .featured-title {
+    margin-top: 10px;
+}
+
+.featured-product {
+    border: none;
+}
+
+.display-4.products-heading {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.unchecked {
+    color: #A9A9A9;
+}
+
+.checked {
+    color: #EFCE4A;
+}
+
+
+/* Latest Blog */
+
+.container-blogs {
+    padding: 0 10% 0 10%;
+}
+
+.container-blogs .blog-text {
+    text-align: left;
+}
+
+.container-blogs .latest-blog {
+    border: none;
+}
+
+.container-blogs .blog-body {
+    padding: 3% 0 0 0;
+}
+
+
+/*  */
+
+
+/* Clients */
+
+.row.jumbotron.clients {
+    justify-content: center;
+}
+
+.row.jumbotron.clients .client {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* Bottom */
+
+.input-group {
+    box-shadow: 3px 4px 4px 3px #E6E6E6;
+}
+
+.my-input {
+    border: none;
+    outline: none;
+}
+
+.btn-input {
+    background-color: transparent;
+}
+
+.input-group-append {
+    margin: 2% 2% 2% 2%;
+}
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+}
+
+.icon-group {
+    word-spacing: 15px;
+    margin-bottom: 3%;
+}
+
+.container-footer .jumbotron {
+    margin-bottom: 0%;
+}
+
+
+/*---Media Queries --*/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 767px) {
+
+    #slides,
+    .custom-navbar {
+        display: flex;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    /* .navbar.container-fluid.padding.row {
+        display: flex;
+    } */
+    .slider-text {
+        padding-top: 0%;
+    }
+
+    .logo-primary {
+        display: none;
+    }
+
+    .logo-secondary {
+        display: block;
+    }
+
+    div.custom-slider {
+        padding: 10%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 50px;
+    }
+
+    .container-slides .slides-text-group {
+        margin-bottom: 100px;
+    }
+
+    .container-slides .slider-image {
+        height: 500px;
+    }
+
+    .container-popular {
+        padding: 0 15% 0 15%;
+    }
+
+    .container-popular .card-popular .img-sofa {
+        padding-top: 10%;
+        margin-bottom: 7%;
+        width: auto;
+    }
+
+    .container-popular .card-popular .img-chair {
+        padding-top: 10%;
+        margin-right: 100px;
+        height: auto;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .container-popular .card-popular .img-lamp {
+        width: 50%;
+        height: auto;
+    }
+
+    .container-popular .card-body-lamp {
+        margin-bottom: 10%;
+    }
+
+    .arrivals-image-container {
+        width: 50%;
+        align-self: center;
+    }
+
+    .container-arrivals .heading-arrivals,
+    .container-featured .heading-featured,
+    .container-bottom .bottom-heading {
+        margin-bottom: 5%;
+    }
+
+    .container-banner .jumbotron.banner {
+        background-size: 350% 100%;
+    }
+
+    .container-banner .banner-text {
+        padding: 0;
+    }
+
+    .container-banner .btn-banner {
+        padding: 2% 8% 2% 8%;
+    }
+
+    .featured-product-image {
+        width: 50%;
+        align-self: center;
+    }
+
+    .container-blogs {
+        width: 75%;
+    }
+
+    .latest-blog-image {
+        width: 50%;
+        align-self: center;
+    }
+
+    .client {
+        display: none;
+    }
+
+    .container-bottom {
+        padding-bottom: 10%;
+    }
+
+    .nav-icons {
+        justify-content: flex-end;
+    }
+
+    .nav-icon {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #slides,
+    .navbar {
+        display: flex;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .logo,
+    .logo-secondary-container,
+    .nav-icons {
+        width: fit-content;
+    }
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

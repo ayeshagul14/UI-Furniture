@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UI Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css"/>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light bg-light sticky-top container-navbar">
+        <div class="container-fluid row">
+            <div class="logo col-sm col-md">
+                <h1 class="logo-primary">
+                    Sine<span class="highlighted">Mkt</span>.
+                </h1>
+                <button class="navbar-toggler custom-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                  <span >
+                      <i class="fas fa-bars menu-bars"></i>
+                  </span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse col-sm col-md" id="navbar">
+                <div class="container-ul">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link highlighted" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#New-Arrival">New Arrival</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm col-md logo-secondary-container">
+                <h1 class="logo-secondary">
+                    Sine<span class="highlighted">Mkt</span>.
+                </h1>
+            </div>
+            <div class="nav-icons col-sm col-md">
+                <div class="nav-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="nav-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="nav-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slides -->
+    <div id="slides" class="carousel slide container-slides" data-ride="carousal">
+        <ul class="carousel-indicators custom-carousal-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active custom-li"></li>
+            <li data-target="#slides" data-slide-to="1" class="custom-li"></li>
+            <li data-target="#slides" data-slide-to="2" class="custom-li"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 slides-text-group">
+                        <div class="slider-text">
+                            <h3 class="text-muted">Great Design Collection</h3>
+                            <h1>Cloth Covered Accent Chair</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            </p>
+                            <br />
+                            <p class="price">
+                                <strike class="line strike">&emsp;&emsp;</strike>
+                                <b>$399.00</b> &nbsp
+                                <strike class="text-muted"> $499.00 </strike>
+                            </p>
+                            <button type="button" class="btn btn-cart btn-lg">
+                  <i class="far fa-plus-square"></i>
+                  Add to Cart
+                </button>
+                            <button type="button" class="btn btn-info btn-light btn-lg">
+                  More Info
+                </button>
+                        </div>
+                    </div>
+                    <div class="slider custom-slider img-fluid slider-image col-lg-6 col-md-6" style="background-image: url(./images/slider/slider1.png)"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 slides-text-group">
+                        <div class="slider-text">
+                            <h3 class="text-muted">Great Design Collection</h3>
+                            <h1>Cloth Covered Accent Chair</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            </p>
+                            <br />
+                            <p class="price">
+                                <strike class="line strike">&emsp;&emsp;</strike>
+                                <b>$399.00</b> &nbsp
+                                <strike class="text-muted"> $499.00 </strike>
+                            </p>
+                            <button type="button" class="btn btn-cart btn-lg">
+                  <i class="far fa-plus-square"></i>
+                  Add to Cart
+                </button>
+                            <button type="button" class="btn btn-info btn-light btn-lg">
+                  More Info
+                </button>
+                        </div>
+                    </div>
+                    <div class="slider custom-slider img-fluid slider-image col-lg-6 col-md-6" style="background-image: url(./images/slider/slider2.png)"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 slides-text-group">
+                        <div class="slider-text">
+                            <h3 class="text-muted">Great Design Collection</h3>
+                            <h1>Cloth Covered Accent Chair</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            </p>
+                            <br />
+                            <p class="price">
+                                <strike class="line strike">&emsp;&emsp;</strike>
+                                <b>$399.00</b> &nbsp
+                                <strike class="text-muted"> $499.00 </strike>
+                            </p>
+                            <button type="button" class="btn btn-cart btn-lg">
+                  <i class="far fa-plus-square"></i>
+                  Add to Cart
+                </button>
+                            <button type="button" class="btn btn-info btn-light btn-lg">
+                  More Info
+                </button>
+                        </div>
+                    </div>
+                    <div class="slider custom-slider img-fluid slider-image col-lg-6 col-md-6" style="background-image: url(./images/slider/slider3.png)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Items -->
+    <div class="container-fluid padding container-popular">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <div class="card custom-card card-popular">
+                    <img src="images/populer-products/p1.png" class="img-sofa" />
+                    <div class="card-body">
+                        <h4 class="card-title">Arm Chair</h4>
+                        <p class="card-text text-muted">
+                            Nemo enim ipsam voluptatem quia voluptas sit asperna aut odit aut
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="card custom-card card-popular">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 container-img-chair">
+                                <img src="images/populer-products/p2.png" class="img-chair" />
+                            </div>
+                            <div class="col-sm-12 col-md-7 latest-chair-text">
+                                <div class="card-body" id="chair-text">
+                                    <h4 class="card-title">Latest Designed Stool and Chair</h4>
+                                    <p class="card-text text-muted">
+                                        Edi Ut Perspiciatis Unde Omnis Iste Natusina Error Sit Voluptatem Accusantium Doloret Mque Laudantium, Totam Rem Aperiam.
+                                    </p>
+                                    <p><b>Sales start from</b> <span class="highlighted">$99.00</span></p>
+                                    <button class="btn btn-popular">Discover More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <div class="card custom-card card-popular">
+                    <img src="images/populer-products/p3.png" class="card-lamp" />
+                    <div class="card-body card-body-lamp">
+                        <h4 class="card-title">Hanging Light</h4>
+                        <p class="card-text text-muted">
+                            Nemo enim ipsam voluptatem quia voluptas sit asperna aut odit aut
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Arrivals -->
+    <div id="New-Arrival" class="container-fluid padding container-arrivals">
+        <h2 class="display-4 heading-arrivals">New Arrivals</h2>
+        <div class="row padding">
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-orange">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals1.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Wooden Chair</p>
+                        <p>$65.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-green">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals2.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Single Armchair</p>
+                        <p>$80.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-hidden">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals3.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Single Armchair</p>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-orange">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals4.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Stylish Chair</p>
+                        <p>$100.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-hidden">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals5.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Modern Chair</p>
+                        <p>$120.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-orange">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals6.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Mapple Wood Dinning Table</p>
+                        <p>$140.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-green">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals7.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Arm Chair</p>
+                        <p>$90.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card custom-card card-arrivals">
+                    <div class="arrivals-image-container">
+                        <button class="btn btn-sale btn-sale-hidden">Sale</button>
+                        <div>
+                            <img class="arrivals-image" src="./images/collection/arrivals8.png" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Wooden Bed</p>
+                        <p>$140.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="container-fluid padding container-banner">
+        <div class="jumbotron banner row">
+            <div class="bg-banner"></div>
+            <div class="banner-text">
+                <h1>Unlimited Sofa Collection</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </p>
+                <p>Starting From <span class="highlighted">$199</span></p>
+                <div>
+                    <button class="btn btn-outline-primary btn-banner">
+              View More
+            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div id="Features" class="container-fluid padding container-featured">
+        <h1 class="display-4 heading-featured">Featured Products</h1>
+        <div class="row ">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card custom-card featured-product">
+                    <div class="featured-product-image">
+                        <img src="./images/features/f1.jpg" class="card-img-top" />
+                    </div>
+                    <div class="card-body">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="text-muted">&nbsp;(45 Reviews)</span>
+                        <h6 class="card-title featured-title">Designed Sofa</h6>
+                        <p class="card-text">$160.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card custom-card featured-product">
+                    <div class="featured-product-image">
+                        <img src="./images/features/f2.jpg" class="card-img-top" />
+                    </div>
+                    <div class="card-body">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="text-muted">&nbsp;(45 Reviews)</span>
+                        <h6 class="card-title featured-title">Dining Table</h6>
+                        <p class="card-text">$200.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card custom-card featured-product">
+                    <div class="featured-product-image">
+                        <img src="./images/features/f3.jpg" class="card-img-top" />
+                    </div>
+                    <div class="card-body">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="text-muted">&nbsp;(45 Reviews)</span>
+                        <h6 class="card-title featured-title">Chair and Table</h6>
+                        <p class="card-text">$100.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card custom-card featured-product">
+                    <div class="featured-product-image">
+                        <img src="./images/features/f4.jpg" class="card-img-top" />
+                    </div>
+                    <div class="card-body">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="text-muted">&nbsp;(45 Reviews)</span>
+                        <h6 class="card-title featured-title">Modern Arm Chair</h6>
+                        <p class="card-text">$299.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Blog -->
+    <div id="Blog" class="container-fluid padding container-blogs">
+        <h1 class="display-4 heading-blog">Latest Blog</h1>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card custom-card latest-blog">
+                    <img src="./images/blog/b1.jpg" class="card-img-top" />
+                    <div class="card-body blog-body">
+                        <h4 class="card-title blog-text">
+                            Why brands are looking at local language
+                        </h4>
+                        <p class="card-text blog-text">By Robert Norby / 18th March 2018</p>
+                        <p class="blog-text">
+                            Nemo Enim Ipsam voluptatem Quia Voluptas Sit Aspernatur Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos Qui Ratione voluptatem sequi nesciunt.....
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card custom-card latest-blog">
+                    <img src="./images/blog/b2.jpg" class="card-img-top" />
+                    <div class="card-body blog-body">
+                        <h4 class="card-title blog-text">
+                            Why brands are looking at local language
+                        </h4>
+                        <p class="card-text blog-text">By Robert Norby / 18th March 2018</p>
+                        <p class="blog-text blog-text">
+                            Nemo Enim Ipsam voluptatem Quia Voluptas Sit Aspernatur Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos Qui Ratione voluptatem sequi nesciunt.....
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card custom-card latest-blog">
+                    <img src="./images/blog/b3.jpg" class="card-img-top" />
+                    <div class="card-body blog-body">
+                        <h4 class="card-title blog-text">
+                            Why brands are looking at local language
+                        </h4>
+                        <p class="card-text blog-text">By Robert Norby / 18th March 2018</p>
+                        <p class="blog-text blog-text">
+                            Nemo Enim Ipsam voluptatem Quia Voluptas Sit Aspernatur Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos Qui Ratione voluptatem sequi nesciunt.....
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- clients -->
+    <div class="container-fluid padding">
+        <div class="row jumbotron clients">
+            <div class="client">
+                <img src="./images/clients/c1.png" alt="" />
+            </div>
+            <div class="client">
+                <img src="./images/clients/c2.png" alt="" />
+            </div>
+            <div class="client">
+                <img src="./images/clients/c3.png" alt="" />
+            </div>
+            <div class="client">
+                <img src="./images/clients/c4.png" alt="" />
+            </div>
+            <div class="client">
+                <img src="./images/clients/c5.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom -->
+    <div id="Contact" class="container-fluid padding container-bottom">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <h4 class="bottom-heading">Information</h4>
+                <p>About us</p>
+                <p>News</p>
+                <p>Contact</p>
+                <p>Store</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <h4 class="bottom-heading">Collections</h4>
+                <p>Wooden Chair</p>
+                <p>Royal Cloth Sofa</p>
+                <p>Accent Chair</p>
+                <p>Bed</p>
+                <p>Hanging Lamp</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <h4 class="bottom-heading">My Accounts</h4>
+                <p>My Account</p>
+                <p>Wishlist</p>
+                <p>Community</p>
+                <p>Order History</p>
+                <p>My Cart</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <h4 class="bottom-heading">Newsletter</h4>
+                <p>Subscribe to get latest news, updates and information</p>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control my-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Here..." />
+                    <div class="input-group-append">
+                        <button class="btn btn-input">
+                            <i class="fas fa-location-arrow"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer container-footer">
+        <div class="container-fluid padding jumbotron">
+            <div class="icon-group">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-reddit"></i>
+            </div>
+
+            <div>
+                <p>&#169;Copyright. Designed And Developed By Ayesha Gul</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
